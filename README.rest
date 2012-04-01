@@ -12,6 +12,8 @@ there is one that takes arguments::
     seqmagick mogrify --ungap a.fasta  # remove all gaps from a.fasta, in place
     seqmagick info *.{fasta,sto}       # describe all FASTA and Stockholm
                                        # files in the current directory
+    seqmagick protparam a.fasta        # output masses and predicted 
+                                       # isoelectric points
 
 Features include:
 
@@ -21,7 +23,7 @@ Features include:
   - Reverse & reverse complement
   - Trim to a range of residues
   - Change case
-  - Sort by length or ID
+  - Sort by length or ID (or mass or pI)
   - `more <http://fhcrc.github.com/seqmagick/#convert-and-mogrify>`_
 
 * Displaying `information <http://fhcrc.github.com/seqmagick/#info>`_ about
